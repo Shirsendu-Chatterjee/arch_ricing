@@ -1,0 +1,19 @@
+# Secrets / credentials
+*.key
+*.pem
+*.token
+.env
+.env.*
+credentials*
+secrets*
+
+# Runtime / machine-specific state
+.cache/
+*.log
+
+# Editor / OS junk
+.DS_Store
+Thumbs.db
+
+# Neovim generated state
+dotfiles/.config/nvim/.lazy.lua

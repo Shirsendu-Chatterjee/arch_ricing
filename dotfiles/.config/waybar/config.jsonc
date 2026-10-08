@@ -1,0 +1,17 @@
+{
+"position":"top",
+
+"modules-left":[
+"clock"
+],
+
+"modules-center":[
+"hyprland/workspaces"
+],
+
+"modules-right":[
+"cpu",
+"memory",
+"battery"
+]
+}

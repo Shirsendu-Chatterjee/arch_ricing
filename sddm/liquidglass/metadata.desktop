@@ -1,0 +1,15 @@
+[SddmGreeterTheme]
+Name=Liquid Glass
+Description=A minimal glassmorphism SDDM theme with a blurred frosted-glass login card
+Author=You
+Copyright=(c) 2026, released under MIT
+License=MIT
+Type=sddm-theme
+Version=1.0
+Website=
+Screenshot=
+MainScript=Main.qml
+ConfigFile=theme.conf
+TranslationsDirectory=translations
+DataDirectory=
+QtVersion=6
