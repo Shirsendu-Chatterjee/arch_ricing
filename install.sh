@@ -4,6 +4,9 @@ set -e
 
 REPO_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
+echo "==> Installing packages..."
+sudo pacman -S --needed - < "$REPO_DIR/packages.txt"
+
 echo "==> Installing user configuration..."
 
 cp -a "$REPO_DIR/dotfiles/.config/." "$HOME/.config/"
